@@ -1,16 +1,14 @@
 import "./Background.css";
-import Background1 from "../../assets/Background-1.jpg";
-import Background2 from "../../assets/Background-2.jpg";
+import video1 from "../../assets/video-2.mp4";
 import Background3 from "../../assets/Background-3.jpg";
 import Background4 from "../../assets/Background-4.jpg";
 import Background5 from "../../assets/Background-5.jpg";
-import Background6 from "../../assets/Background-6.jpg";
 
 const Background = ({ playStatus, heroCount }) => {
   if (playStatus) {
     return (
-      <video className="background" autoPlay loop muted>
-        <source src={video} type="video/mp4" />
+      <video className="background_video" autoPlay loop muted>
+        <source src={video1} type="video/mp4" />
       </video>
     );
   } else if (heroCount === 0) {

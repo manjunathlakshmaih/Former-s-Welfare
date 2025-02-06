@@ -5,7 +5,7 @@ import Background from "./Components/Background/Background";
 import Hero from "./Components/Hero/Hero";
 
 function App() {
-  const agriData = [
+  const heroData = [
     { text1: "Dive into", text2: "What you love" },
     { text1: "Dive into", text2: "What you love" },
     { text1: "Dive into", text2: "What you love" },
@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <Hero
         setPlayStatus={setPlayStatus}
-        agriData={agriData[heroCount]}
+        heroData={heroData[heroCount]}
         heroCount={heroCount}
         setHeroCount={setHeroCount}
         playStatus={playStatus}

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="nav-logo">
-        Formers welfare
+        Farmers welfare
       </div>
       <ul className="nav-menu">
         {Items.map((item, index) => (
