@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Background from "./Components/Background/Background";
 import MapComponent from "./Components/Map/Map";
 import Hero from "./Components/Hero/Hero";
-import Login from "./Components/Login/Login";  // Add a Home component if needed
+import Login from "./Components/Login/Login";  
 
 function App() {
   const heroData = [
