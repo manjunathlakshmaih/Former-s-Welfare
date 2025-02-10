@@ -1,5 +1,5 @@
 import "./Background.css";
-import video1 from "../../assets/video-2.mp4";
+import video1 from "../../assets/video-1.mp4";
 import Background3 from "../../assets/Background-3.jpg";
 import Background4 from "../../assets/Background-4.jpg";
 import Background5 from "../../assets/Background-5.jpg";
